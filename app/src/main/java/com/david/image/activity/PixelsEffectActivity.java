@@ -1,4 +1,4 @@
-package com.david.image;
+package com.david.image.activity;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -6,8 +6,12 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.david.image.R;
+import com.david.image.helper.ImageHelper;
+
 /**
  * Created by David on 17/3/14.
+ * 图像像素处理
  */
 
 public class PixelsEffectActivity extends Activity {

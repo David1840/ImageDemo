@@ -1,4 +1,4 @@
-package com.david.image;
+package com.david.image.activity;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -7,8 +7,13 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 
+import com.david.image.R;
+import com.david.image.helper.ImageHelper;
+
 /**
  * Created by David on 17/3/14.
+ *
+ *
  */
 
 public class PrimaryColorActivity extends Activity implements SeekBar.OnSeekBarChangeListener {

@@ -1,4 +1,4 @@
-package com.david.image;
+package com.david.image.activity;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -13,8 +13,11 @@ import android.widget.EditText;
 import android.widget.GridLayout;
 import android.widget.ImageView;
 
+import com.david.image.R;
+
 /**
  * Created by David on 17/3/14.
+ * 颜色矩阵
  */
 
 public class ColorMatrixActivity extends Activity {

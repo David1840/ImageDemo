@@ -16,11 +16,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".PrimaryColorActivity" />
+        <activity android:name=".activity.PrimaryColorActivity" />
 
-        <activity android:name=".ColorMatrixActivity" />
+        <activity android:name=".activity.ColorMatrixActivity" />
 
-        <activity android:name=".PixelsEffectActivity" />
+        <activity android:name=".activity.PixelsEffectActivity" />
+
+        <activity android:name=".activity.ImageMatrixActivity" />
+
+        <activity android:name=".activity.RoundRectXfermodActivity" />
+        <activity android:name=".activity.BitmapShaderActivity" />
+        <activity android:name=".activity.ReflectActivity" />
+        <activity android:name=".activity.MeshActivity" />
     </application>
 
 </manifest>

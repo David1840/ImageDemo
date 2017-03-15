@@ -1,4 +1,4 @@
-package com.david.image;
+package com.david.image.helper;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

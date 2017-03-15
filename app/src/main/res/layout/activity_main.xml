@@ -24,6 +24,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
         android:onClick="btnPrimaryColor"
         android:text="PrimaryColor" />
 
@@ -31,6 +32,7 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
         android:onClick="btnColorMatrix"
         android:text="ColorMatrix" />
 
@@ -38,6 +40,47 @@
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
         android:onClick="btnPixelsEffect"
         android:text="PixelsEffect" />
+
+    <Button
+        android:id="@+id/Matrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:onClick="btnMatrix"
+        android:text="ImageMatrix" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:onClick="btnRound"
+        android:text="Xfermod圆角图片" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:onClick="btnImageShader"
+        android:text="Shader圆角图片" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:onClick="btnReflect"
+        android:text="镜像倒影" />
+
+    <Button
+        android:text="Mesh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:onClick="btnMesh"
+        android:id="@+id/button7" />
 </LinearLayout>
