@@ -399,4 +399,5 @@ Mesh就是就是网格的意思，drawBitmapMesh就是将Bitmap分割成为若�
 　　
 　　
 　　
-代码地址[ImageDome](https://github.com/David1840/ImageDemo)
+<br/>代码地址[ImageDome](https://github.com/David1840/ImageDemo)
+<br/>博客地址[Android图像处理](http://blog.csdn.net/liuweihhhh/article/details/64129878)
