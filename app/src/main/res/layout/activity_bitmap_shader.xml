@@ -4,8 +4,8 @@
     android:layout_height="match_parent">
 
     <com.david.image.view.BitmapShaderView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="800dp"
+        android:layout_height="800dp"
         android:layout_margin="30dp"/>
 
 </LinearLayout>

@@ -26,9 +26,9 @@ public class ImageHelper {
         Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);  //抗锯齿
 
         ColorMatrix hueMatrix = new ColorMatrix();
-        hueMatrix.setRotate(0, hue);
-        hueMatrix.setRotate(1, hue);
-        hueMatrix.setRotate(2, hue);
+        hueMatrix.setRotate(0, hue); //R
+        hueMatrix.setRotate(1, hue); //G
+        hueMatrix.setRotate(2, hue); //B
 
 
         ColorMatrix saturationMatrix = new ColorMatrix();

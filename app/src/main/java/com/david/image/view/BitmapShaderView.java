@@ -44,7 +44,6 @@ public class BitmapShaderView extends View {
         mPaint.setShader(mBitmapShader);
         //圆角矩形
         canvas.drawRoundRect(0, 0, mBitmap.getWidth(), mBitmap.getHeight(), 50, 50, mPaint);
-
         //圆形
 //        canvas.drawCircle(mBitmap.getWidth() / 2, mBitmap.getHeight() / 2, mBitmap.getHeight() / 2, mPaint);
     }

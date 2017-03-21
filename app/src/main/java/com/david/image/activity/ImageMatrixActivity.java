@@ -75,12 +75,12 @@ public class ImageMatrixActivity extends Activity {
         getImageMatrix();
         Matrix matrix = new Matrix();
         //使用矩阵
-//        matrix.setValues(mImageMatrix);
+        matrix.setValues(mImageMatrix);
         //使用Android API
 //        matrix.setTranslate(100, 100);
-        matrix.setScale(2, 2);
+//        matrix.setScale(2, 2);
         //使用POST方法才能顺序显示
-        matrix.postTranslate(200, 200);
+//        matrix.postTranslate(200, 200);
         mImageMatrixView.setImageMatrix(matrix);
         mImageMatrixView.invalidate();
     }
